@@ -1,1 +1,0 @@
-{"virtualbox":{"/var/www/html":{"create":true,"guestpath":"/var/www/html","hostpath":"C:/Users/andre/Documents/Github/lhd/project","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/andre/Documents/Github/lhd/env","disabled":false,"__vagrantfile":true}}}
