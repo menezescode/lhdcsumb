@@ -6755,3 +6755,109 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.clickable
+{
+    cursor: pointer;
+}
+
+.clickable .glyphicon
+{
+    background: rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px
+}
+
+.panel-heading span
+{
+    margin-top: -23px;
+    font-size: 15px;
+    margin-right: -9px;
+}
+
+
+a.clickable { color: inherit; }
+a.clickable:hover { text-decoration:none; }
+
+/*http://bootsnipp.com/snippets/featured/full-clickable-panel-heading*/
+
+.schoolName{
+     margin-top: 15px;
+  text-shadow: 2px 2px 5px #000066;
+  font-weight:bold;
+  font-size:20px;
+  background-color: transparent;
+
+}
+
+.userPanel{
+    margin-bottom: 15px;
+    font-size:30px;
+    font-family:"Lucida Sans Unicode";
+    
+    
+}
+
+.profilenavbar{
+  margin-top:15px;
+}
+
+.bg{
+  background-color:#2d5986;
+}
+
+ body {
+        background:#c33;
+    }
+
+    .panel-transparent {
+        background: none;
+        margin-top:20px;
+    }
+
+    .panel-transparent .panel-heading{
+        background: rgba(122, 130, 136, 0.2)!important;
+ 
+    }
+
+    .panel-transparent .panel-body{
+        background: rgba(46, 51, 56, 0.2)!important;
+        text-shadow: 2px 2px 5px #000066;
+  font-weight:bold;
+  font-size:20px;
+  color: black;
+    }
+    
+  .panel-user{
+        background: rgba(46, 51, 56, 0.2)!important;
+  font-weight:bold;
+  font-size:25px;
+  
+    }
+    
+  .panel-id{
+        background: rgba(46, 51, 56, 0.2)!important;
+    font-weight:bold;
+  font-size:20px;
+  
+    }
+    
+    .panel-user-info{
+     color:white;
+    }
+    
+    .panel-container{
+      margin-top:25px;
+    }
+    
+    .panel-default{
+      background-color:#c6d9ec;
+      height: 200px;
+      width: 380px;
+      margin: 4px;
+    }
+    
+    .panel-heading{
+      background-color:#79a6d2;
+    }

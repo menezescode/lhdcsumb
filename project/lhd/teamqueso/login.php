@@ -1,14 +1,17 @@
+
 <?php
-session_start();
+session_start(); //MUST be included whenever $_SESSION is used
 
-//Connect to database and log in
+$username = $_POST['username'];
+$password = $_POST['password'];  //hash("sha1", $_POST['password'])
 
-//Set _SESSION
-$_SESSION["action"] = "show profile";
-$_SESSION["username"] = $username;
-$_SESSION["password"] = $password;
-
-//Redirect to the profile
-header("profile.php");
-exit();
+    if($username == ""){
+        echo "Wrong username or password";
+        echo "<a href='main.php'>Try Again </a>";
+    }
+    else{
+        
+        $_SESSION['username'] = $username;
+        header('Location: profile.php'); //redircts to another page
+    }
 ?>
